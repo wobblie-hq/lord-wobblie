@@ -2,7 +2,7 @@ import { Probot } from "probot";
 import { triageIssue } from "./triage";
 
 export default (app: Probot) => {
-  app.log.info("Lord Wobblie is alive!");
+  app.log.info("The Duke of Wobblie is alive!");
 
   app.on("issues.opened", async (context) => {
     const { title, body, number } = context.payload.issue;

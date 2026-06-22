@@ -1,8 +1,8 @@
 {
-  "name": "lord-wobblie",
+  "name": "the-duke-of-wobblie",
   "version": "1.0.0",
   "private": true,
-  "description": "GitHub App bot for wobblies.ai — built with Probot",
+  "description": "🎩 Issue triage bot for wobblies.ai — built with Probot",
   "scripts": {
     "dev": "npx nodemon",
     "start": "npx probot run ./dist/index.js",

@@ -1,20 +1,20 @@
-# Lord Wobblie 🤖
+# The Duke of Wobblie 🎩🤖
 
 GitHub App bot for [wobblies.ai](https://wobblies.ai) — built with [Probot](https://github.com/probot/probot).
 
 ## What it does
 
-Lord Wobblie is the GitHub App that powers wobblies.ai. It:
+The Duke of Wobblie is the issue triage bot for the wobblies.ai platform. It:
 
+- **Triages new issues** — auto-labels by type (bug/feature/docs/question), area (core/engineering/design/integration), and priority
+- **Detects duplicates** — comments with links to similar open issues
 - Listens for webhook events (pushes, PRs, issues) on repos where it's installed
-- **Triages new issues** — auto-labels by type (bug/feature/docs/question), area (core/engineering/design/integration), and priority; detects possible duplicates
 - Detects changes to `.wobblies/` directory
 - Activates wobblies when their definition files are merged to the default branch
-- Executes wobblie routines based on watch conditions and schedules
 
 ## Issue Triage
 
-When a new issue is opened, Lord Wobblie will:
+When a new issue is opened, The Duke will:
 
 1. **Classify type** — bug, enhancement, documentation, or question
 2. **Route to area** — core, engineering, design, documentation, marketing, or integration
